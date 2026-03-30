@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Products - Tech & Watch Store</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <h1 class="logo">⌚ Tech & Watch Store</h1>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="products.html" class="nav-link active">Products</a></li>
+                <li><a href="cart.html" class="nav-link cart-link">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-count" id="cartCount">0</span>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <!-- Filters Sidebar -->
+            <aside class="filters-sidebar">
+                <h3>Filters</h3>
+                
+                <!-- Category Filter -->
+                <div class="filter-group">
+                    <h4>Category</h4>
+                    <div class="filter-options">
+                        <label>
+                            <input type="checkbox" value="all" class="category-filter" checked>
+                            All Products
+                        </label>
+                        <label>
+                            <input type="checkbox" value="watches" class="category-filter">
+                            Watches
+                        </label>
+                        <label>
+                            <input type="checkbox" value="phones" class="category-filter">
+                            Smartphones
+                        </label>
+                        <label>
+                            <input type="checkbox" value="accessories" class="category-filter">
+                            Accessories
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Price Filter -->
+                <div class="filter-group">
+                    <h4>Price Range</h4>
+                    <input type="range" id="priceFilter" min="0" max="5000" value="5000">
+                    <div class="price-display">
+                        <span>$0</span> - <span id="priceValue">$5000</span>
+                    </div>
+                </div>
+
+                <!-- Rating Filter -->
+                <div class="filter-group">
+                    <h4>Rating</h4>
+                    <div class="filter-options">
+                        <label>
+                            <input type="checkbox" value="5" class="rating-filter">
+                            ⭐⭐⭐⭐⭐ 5 Stars
+                        </label>
+                        <label>
+                            <input type="checkbox" value="4" class="rating-filter">
+                            ⭐⭐⭐⭐ 4+ Stars
+                        </label>
+                        <label>
+                            <input type="checkbox" value="3" class="rating-filter">
+                            ⭐⭐⭐ 3+ Stars
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Reset Button -->
+                <button class="reset-filters" id="resetFilters">Reset Filters</button>
+            </aside>
+
+            <!-- Products Main Content -->
+            <div class="products-main">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
+                    <div class="sort-controls">
+                        <select id="sortSelect" class="sort-dropdown">
+                            <option value="newest">Newest</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="rating">Top Rated</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Products Grid -->
+                <div class="products-grid" id="productsGrid">
+                    <!-- Loading skeleton -->
+                    <div class="skeleton-loader"></div>
+                </div>
+
+                <!-- Empty State -->
+                <div class="empty-state" id="emptyState" style="display: none;">
+                    <p>No products found</p>
+                    <a href="products.html" class="reset-link">Reset Filters</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Premium destination for luxury watches and cutting-edge technology.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: mahmoudalmohammad779@gmail.com</p>
+                <p>Phone: +961 81 557 991</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tech & Watch Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">↑</button>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="js/router.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+    
+    
+</body>
+</html>
