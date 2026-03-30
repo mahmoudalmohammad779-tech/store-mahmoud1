@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "title": "Rolex Submariner",
+    "price": 9500,
+    "category": "watches",
+    "image": "https://images.unsplash.com/photo-1523170335258-f875fda8cc0d?w=500&h=500&fit=crop",
+    "description": "Iconic luxury dive watch with automatic movement, stainless steel case, and water resistance up to 300m.",
+    "rating": 5,
+    "stock": 3,
+    "specs": {
+      "brand": "Rolex",
+      "movement": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "waterResistance": "300m"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Apple Watch Series 9",
+    "price": 399,
+    "category": "watches",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+    "description": "Advanced fitness tracking, health monitoring, and seamless iPhone integration with always-on display.",
+    "rating": 5,
+    "stock": 15,
+    "specs": {
+      "brand": "Apple",
+      "movement": "Electronic",
+      "caseMaterial": "Aluminum",
+      "waterResistance": "50m"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Omega Seamaster",
+    "price": 6500,
+    "category": "watches",
+    "image": "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop",
+    "description": "Professional dive watch with Co-Axial movement, known for precision and reliability in demanding conditions.",
+    "rating": 5,
+    "stock": 2,
+    "specs": {
+      "brand": "Omega",
+      "movement": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "waterResistance": "300m"
+    }
+  },
+  {
+    "id": 4,
+    "title": "iPhone 15 Pro Max",
+    "price": 1199,
+    "category": "phones",
+    "image": "https://images.unsplash.com/photo-1511707267537-b85faf00021e?w=500&h=500&fit=crop",
+    "description": "Latest flagship with A17 Pro chip, advanced camera system, and stunning Super Retina XDR display.",
+    "rating": 5,
+    "stock": 8,
+    "specs": {
+      "processor": "Apple A17 Pro",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "48MP Main"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Samsung Galaxy S24 Ultra",
+    "price": 1299,
+    "category": "phones",
+    "image": "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=500&h=500&fit=crop",
+    "description": "Premium flagship with 200MP camera, titanium design, and AI-powered features.",
+    "rating": 5,
+    "stock": 10,
+    "specs": {
+      "processor": "Snapdragon 8 Gen 3",
+      "ram": "12GB",
+      "storage": "512GB",
+      "camera": "200MP Main"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Google Pixel 8 Pro",
+    "price": 999,
+    "category": "phones",
+    "image": "https://images.unsplash.com/photo-1510149544f04-b0e9fd829b1d?w=500&h=500&fit=crop",
+    "description": "Google's flagship with incredible computational photography and AI features.",
+    "rating": 4,
+    "stock": 12,
+    "specs": {
+      "processor": "Tensor G3",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "50MP Main"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Sony WH-1000XM5",
+    "price": 399,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+    "description": "Industry-leading noise cancelling wireless headphones with premium sound quality.",
+    "rating": 5,
+    "stock": 20,
+    "specs": {
+      "type": "Wireless Headphones",
+      "compatibility": "Universal",
+      "warranty": "2 Years"
+    }
+  },
+  {
+    "id": 8,
+    "title": "AirPods Pro Max",
+    "price": 549,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&h=500&fit=crop",
+    "description": "Premium over-ear headphones with spatial audio and active noise cancellation.",
+    "rating": 5,
+    "stock": 7,
+    "specs": {
+      "type": "Premium Headphones",
+      "compatibility": "Apple Devices",
+      "warranty": "2 Years"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Samsung Galaxy Buds3",
+    "price": 229,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&h=500&fit=crop",
+    "description": "True wireless earbuds with intelligent ANC and 360-degree audio.",
+    "rating": 4,
+    "stock": 25,
+    "specs": {
+      "type": "Wireless Earbuds",
+      "compatibility": "Universal",
+      "warranty": "1 Year"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Cartier Santos",
+    "price": 7200,
+    "category": "watches",
+    "image": "https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?w=500&h=500&fit=crop",
+    "description": "Iconic luxury sports watch with distinctive square case and elegant design.",
+    "rating": 5,
+    "stock": 1,
+    "specs": {
+      "brand": "Cartier",
+      "movement": "Automatic",
+      "caseMaterial": "18K Gold",
+      "waterResistance": "100m"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Breitling Navitimer",
+    "price": 8500,
+    "category": "watches",
+    "image": "https://images.unsplash.com/photo-1541961017774-22e08e3aa8a9?w=500&h=500&fit=crop",
+    "description": "Professional chronograph with slide rule and legendary heritage.",
+    "rating": 5,
+    "stock": 2,
+    "specs": {
+      "brand": "Breitling",
+      "movement": "Automatic",
+      "caseMaterial": "Stainless Steel",
+      "waterResistance": "300m"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Tag Heuer Carrera",
+    "price": 5200,
+    "category": "watches",
+    "image": "https://images.unsplash.com/photo-1569495085897-fa4ca6aae346?w=500&h=500&fit=crop",
+    "description": "Racing-inspired luxury chronograph with precision movement.",
+    "rating": 4,
+    "stock": 4,
+    "specs": {
+      "brand": "Tag Heuer",
+      "movement": "Automatic",
+      "caseMaterial": "Steel",
+      "waterResistance": "100m"
+    }
+  }
+]
